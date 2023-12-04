@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Mon Dec  4 14:40:01 2023 as: nmap -sP --exclude <TARGET NETWORK GATEWAY> -oN ./nmap.log <CIDR NETWORK>
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+# Nmap done at Mon Dec  4 14:40:40 2023 -- 63 IP addresses (0 hosts up) scanned in 38.82 seconds
