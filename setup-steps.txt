@@ -1,0 +1,21 @@
+PiAutomation device
+
+Hardware:
+- Pi 3b+
+- Pi ZeroW
+
+Software:
+- Raspberry Pi OS (latest version)
+- Nmap (latest version)
+- Python (latest version)
+
+1. Load Raspberry Pi OS using regular instructions found online
+2. Install Python ()
+3. Create pinmap.sh with the following commands:
+  1. nmap -sP <CIDR Network> --exclude <Gateway IP> -oN ./nmap.log (where <CIDR NETWORK> is the target network for guests)
+  2. python3 ./pinmap.py
+4. Create pinmap.py (see sample script in this repo)
+5. Execute: crontab -e
+  1. */5 * * * * /home/cj/pinmap.sh (runs the shell script every 5 minutes)
+
+
