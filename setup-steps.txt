@@ -16,6 +16,6 @@ Software:
   2. python3 ./pinmap.py
 4. Create pinmap.py (see sample script in this repo)
 5. Execute: crontab -e
-  1. */5 * * * * /home/cj/pinmap.sh (runs the shell script every 5 minutes)
+  1. */5 * * * * /home/nmap_mqtt/pinmap.sh (runs the shell script every 5 minutes)
 
 
