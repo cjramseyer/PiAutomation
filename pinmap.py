@@ -13,7 +13,7 @@ client_id = '<CLIENT ID HERE>'
 username = '<MQTT USERNAME>'
 password = '<MQTT PASSWORD>'
 
-with open("nmap.log", "r") as f:
+with open("nmap-<network>.log", "r") as f:
     for line in f:
         line
     last_line = line
